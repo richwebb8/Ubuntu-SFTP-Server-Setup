@@ -19,11 +19,11 @@ sudo sh Generate_SFTP_User.sh 'Username' 'Password'
 
 ## Example
 <p align="center">
-  <img src="./Example_Images/SFTP1.png" width="350" title="SFTP_Setup.sh Screenshot">
+  <img src="./Example_Images/SFTP1.png" width="1500" title="SFTP_Setup.sh Screenshot">
 </p>
 <p align="center">
-  <img src="./Example_Images/SFTP2.png" width="350" title="Generate_SFTP_User.sh Screenshot">
+  <img src="./Example_Images/SFTP2.png" width="1500" title="Generate_SFTP_User.sh Screenshot">
 </p>
 <p align="center">
-  <img src="./Example_Images/SFTP3.png" width="350" title="FileZilla Screenshot">
+  <img src="./Example_Images/SFTP3.png" width="1500" title="FileZilla Screenshot">
 </p>
