@@ -2,7 +2,7 @@
 Help()
 {
    # Display Help
-   echo "Syntax: sudo Generate_SFTP_User.sh Username Password"
+   echo "Syntax: sudo sh Generate_SFTP_User.sh 'Username' 'Password'"
    echo "Where 'Username' and 'Password' are user defined arguments"
 }
 while getopts ":h" option; do
@@ -18,7 +18,7 @@ done
 # Check for 2 arguments
 if [ "$#" -ne 2 ]; then
     echo "Illegal number of parameters"
-	echo "Syntax: sudo Generate_SFTP_User.sh Username Password"
+	echo "Syntax: sudo sh Generate_SFTP_User.sh 'Username' 'Password'"
 	echo "Where 'Username' and 'Password' are user defined arguments"
 else
 	echo "Generating user in SFTP_USERS group with the following credentials:"

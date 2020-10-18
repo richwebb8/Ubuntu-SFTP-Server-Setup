@@ -11,8 +11,19 @@ Contains 2 bash scripts:
 
 ## Generate_SFTP_User.sh
 - Must be called with two user defined arguments 'Username' and 'Password':
-  - sudo sh Generate_SFTP_User.sh 'Username' 'Password'
+```
+sudo sh Generate_SFTP_User.sh 'Username' 'Password'
+```
 - Adds the user to the group SFTP_USERS
 - Creates the /data/'Username'/upload directory
 
 ## Example
+<p align="center">
+  <img src="./Example_Images/SFTP1.png" width="350" title="SFTP_Setup.sh Screenshot">
+</p>
+<p align="center">
+  <img src="./Example_Images/SFTP2.png" width="350" title="Generate_SFTP_User.sh Screenshot">
+</p>
+<p align="center">
+  <img src="./Example_Images/SFTP3.png" width="350" title="FileZilla Screenshot">
+</p>
